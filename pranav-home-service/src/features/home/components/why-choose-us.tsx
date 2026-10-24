@@ -81,10 +81,10 @@ export function WhyChooseUs() {
             </div>
             <div>
               <p className="font-serif text-3xl font-bold text-slate-900">2,500+</p>
-              <p className="mt-0.5 text-xs font-medium text-slate-500">Happy Estates</p>
+              <p className="mt-0.5 text-xs font-medium text-slate-500">Happy Clients</p>
             </div>
             <div>
-              <p className="font-serif text-3xl font-bold text-slate-900">12,000+</p>
+              <p className="font-serif text-3xl font-bold text-slate-900">3,000+</p>
               <p className="mt-0.5 text-xs font-medium text-slate-500">Spaces Restored</p>
             </div>
             <div>
