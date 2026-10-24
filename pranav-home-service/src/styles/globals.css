@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens. Palette: deep teal ink, lagoon primary, rinse-water tint, lemon accent.
+ * Contrast checked: ink on paper/rinse/lemon and white on primary all exceed WCAG AA (4.5:1).
+ */
+@theme {
+  --color-ink: #0e2f36;
+  --color-ink-soft: #46606a;
+  --color-primary: #0f6e7d;
+  --color-primary-strong: #0a5561;
+  --color-rinse: #e3f3f1;
+  --color-grout: #c5d8d5;
+  --color-lemon: #f6c945;
+  --color-lemon-strong: #eab92a;
+  --color-paper: #fbfdfc;
+  --color-danger: #b42318;
+  --color-danger-soft: #fdeceb;
+  --color-success: #0b6b43;
+  --color-success-soft: #e6f6ee;
+
+  --radius-card: 0.875rem;
+  --shadow-lift: 0 1px 2px rgb(14 47 54 / 0.06), 0 8px 24px -12px rgb(14 47 54 / 0.18);
+}
+
+@theme inline {
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    margin-block: 0;
+    padding: 0;
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
