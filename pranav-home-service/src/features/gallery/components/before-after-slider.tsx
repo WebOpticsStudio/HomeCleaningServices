@@ -184,3 +184,5 @@ export function BeforeAfterSlider({
     </figure>
   );
 }
+
+export default BeforeAfterSlider;
