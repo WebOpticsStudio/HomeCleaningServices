@@ -30,6 +30,6 @@ export const faqs: readonly AccordionItem[] = [
     id: 'coverage',
     question: 'Which areas in and around Kolar do you cover?',
     answer:
-      'We cover all major neighborhoods in Kolar city (Gulpet, Kataripalya, Gandhi Nagar, Fort Area, APMC Yard, Gowripete) and surrounding towns like Bangarapet, Malur, KGF, Mulbagal, and Srinivaspur upon dispatch confirmation.',
+      'We operate exclusively within Kolar city. We provide comprehensive cleaning coverage across all neighborhoods in Kolar (including Gulpet, Kataripalya, Gandhi Nagar, Fort Area, APMC Yard, Gowripete, Doomlight Circle, and Kuvempu Nagar). Please note that our services are strictly limited to Kolar only—we do not cover other towns such as KGF (Robertsonpet), Mulbagal, Bangarapet, or Malur.',
   },
 ];

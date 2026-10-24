@@ -124,15 +124,18 @@ export function BeforeAfterSlider({
             loading="lazy"
             priority={false}
           />
-          {/* Refined AFTER Floating Badge */}
-          <span className="pointer-events-none absolute top-3.5 right-3.5 z-20 rounded-full bg-teal-900/70 px-3 py-1 text-[10px] font-bold tracking-widest text-white uppercase backdrop-blur-md">
+          {/* Refined AFTER Floating Badge - Fades out when slider moves right towards 100% */}
+          <span
+            style={{ opacity: sliderPosition > 80 ? 0 : 1 }}
+            className="pointer-events-none absolute top-3.5 right-3.5 z-10 rounded-full bg-teal-900/70 px-3 py-1 text-[10px] font-bold tracking-widest text-white uppercase backdrop-blur-md transition-opacity duration-200"
+          >
             After
           </span>
         </div>
 
         {/* BEFORE Image (Clipped overlay layer) */}
         <div
-          className="absolute inset-0 overflow-hidden"
+          className="absolute inset-0 z-10 overflow-hidden"
           style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
         >
           <Image
@@ -145,15 +148,18 @@ export function BeforeAfterSlider({
             loading="lazy"
             priority={false}
           />
-          {/* Refined BEFORE Floating Badge */}
-          <span className="pointer-events-none absolute top-3.5 left-3.5 z-20 rounded-full bg-black/50 px-3 py-1 text-[10px] font-bold tracking-widest text-white uppercase backdrop-blur-md">
+          {/* Refined BEFORE Floating Badge - Fades out when slider moves left towards 0% */}
+          <span
+            style={{ opacity: sliderPosition < 20 ? 0 : 1 }}
+            className="pointer-events-none absolute top-3.5 left-3.5 z-20 rounded-full bg-black/50 px-3 py-1 text-[10px] font-bold tracking-widest text-white uppercase backdrop-blur-md transition-opacity duration-200"
+          >
             Before
           </span>
         </div>
 
         {/* Draggable Divider Line & Custom Handle */}
         <div
-          className="pointer-events-none absolute inset-y-0 z-20"
+          className="pointer-events-none absolute inset-y-0 z-30"
           style={{ left: `${sliderPosition}%` }}
         >
           {/* Vertical divider line */}

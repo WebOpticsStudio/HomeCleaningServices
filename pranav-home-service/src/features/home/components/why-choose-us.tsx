@@ -19,6 +19,7 @@ export function WhyChooseUs() {
               alt="Premium Interior Care and happy family living in a clean home"
               width={800}
               height={1000}
+              loading="lazy"
               sizes="(min-width: 1024px) 40vw, 100vw"
               className="h-full w-full object-cover object-center"
             />

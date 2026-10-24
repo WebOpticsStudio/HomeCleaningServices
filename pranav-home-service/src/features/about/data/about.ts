@@ -36,7 +36,7 @@ export const aboutContent = {
     { title: 'Fixed visit windows', description: 'Choose a two-hour slot that fits your day.' },
     {
       title: 'Local Kolar team',
-      description: 'Serving Kolar town, Bangarapet, Malur and nearby areas.',
+      description: 'Serving Kolar town and its local residential neighborhoods.',
     },
   ],
 } as const;

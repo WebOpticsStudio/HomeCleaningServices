@@ -93,7 +93,7 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <h4 className="text-sm font-bold tracking-tight text-white">Local Expertise</h4>
                 <p className="text-xs leading-relaxed text-white/70">
-                  Proudly serving Kolar Town, Bangarapet, and Malur with an elite in-house team.
+                  Proudly serving Kolar Town and all its local neighborhoods with an elite in-house team.
                 </p>
               </div>
             </div>

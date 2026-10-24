@@ -14,7 +14,7 @@ export const testimonials: readonly Testimonial[] = [
     review:
       'Kolar Clean did an amazing job! My home has never looked this clean and fresh. The team was highly professional, incredibly friendly, and arrived exactly on time.',
     image: {
-      src: '/images/avatars/sarah.jpg',
+      src: '/images/avatars/sarah.webp',
       alt: 'Sarah M.',
       width: 100,
       height: 100,
@@ -29,7 +29,7 @@ export const testimonials: readonly Testimonial[] = [
     review:
       "We've been using Kolar Clean for our office and home deep cleaning for months, and the results are always outstanding. Highly recommend their services!",
     image: {
-      src: '/images/avatars/james.jpg',
+      src: '/images/avatars/james.webp',
       alt: 'James T.',
       width: 100,
       height: 100,
@@ -44,7 +44,7 @@ export const testimonials: readonly Testimonial[] = [
     review:
       'Reliable, detailed, and eco-friendly! I love that they use safe products and always leave our home sparkling. Fantastic service!',
     image: {
-      src: '/images/avatars/emily.jpg',
+      src: '/images/avatars/emily.webp',
       alt: 'Emily R.',
       width: 100,
       height: 100,
@@ -59,7 +59,7 @@ export const testimonials: readonly Testimonial[] = [
     review:
       'Booked their full villa deep cleaning before the festival. Every corner, balcony, and ceiling fan was spotless. Unbeatable attention to detail!',
     image: {
-      src: '/images/avatars/priya.jpg',
+      src: '/images/avatars/priya.webp',
       alt: 'Priya K.',
       width: 100,
       height: 100,
@@ -74,7 +74,7 @@ export const testimonials: readonly Testimonial[] = [
     review:
       'The grease and hard water stains on our kitchen tiles and chimney were completely eliminated. Super courteous staff and zero chemical odor.',
     image: {
-      src: '/images/avatars/anand.jpg',
+      src: '/images/avatars/anand.webp',
       alt: 'Anand N.',
       width: 100,
       height: 100,
@@ -89,7 +89,7 @@ export const testimonials: readonly Testimonial[] = [
     review:
       'Moved into a newly painted 3BHK and Kolar Clean made it ready to live in 4 hours. Inspection walkthrough at the end gave us total peace of mind.',
     image: {
-      src: '/images/avatars/sarah.jpg',
+      src: '/images/avatars/sarah.webp',
       alt: 'Rekha S.',
       width: 100,
       height: 100,
