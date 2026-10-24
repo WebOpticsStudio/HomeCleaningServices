@@ -45,7 +45,6 @@ export function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
               alt={image.alt}
               width={36}
               height={36}
-              loading="lazy"
               className="size-full object-cover"
             />
           ) : (

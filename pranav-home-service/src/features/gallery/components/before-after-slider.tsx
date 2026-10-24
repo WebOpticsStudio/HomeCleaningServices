@@ -121,8 +121,6 @@ export function BeforeAfterSlider({
             height={after.height}
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
             className="h-full w-full object-cover"
-            loading="lazy"
-            priority={false}
           />
           {/* Refined AFTER Floating Badge - Fades out when slider moves right towards 100% */}
           <span
@@ -145,8 +143,6 @@ export function BeforeAfterSlider({
             height={before.height}
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
             className="h-full w-full object-cover"
-            loading="lazy"
-            priority={false}
           />
           {/* Refined BEFORE Floating Badge - Fades out when slider moves left towards 0% */}
           <span
