@@ -119,6 +119,7 @@ export function BeforeAfterSlider({
             alt={after.alt}
             width={after.width}
             height={after.height}
+            loading="lazy"
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
             className="h-full w-full object-cover"
           />
@@ -141,6 +142,7 @@ export function BeforeAfterSlider({
             alt={before.alt}
             width={before.width}
             height={before.height}
+            loading="lazy"
             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
             className="h-full w-full object-cover"
           />
